@@ -40,7 +40,7 @@ const Chart = () => {
 		/>
 	) : null;
 
-	return <div className={styles.container}>{country ? barChart : lineChart}</div>;
+	return <div className={styles.container}>{lineChart}</div>;
 };
 
 export default Chart;
